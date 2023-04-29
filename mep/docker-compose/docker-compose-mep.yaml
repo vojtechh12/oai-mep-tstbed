@@ -5,7 +5,7 @@ services:
   #######################################
   oai-mep-gateway:
     container_name: "oai-mep-gateway"
-    image: kong:latest
+    image: kong:3.0-alpine
     restart: always
     hostname: "oai-mep.org"
     environment:
@@ -29,11 +29,9 @@ services:
        public_net:
           ipv4_address: 192.168.70.2
   kong-migration:
-    image: kong:latest
+    image: kong:3.0-alpine
     command: "kong migrations bootstrap"
     container_name: "migeration-tmp"
-    networks:
-      - kong-net
     restart: on-failure
     environment:
       KONG_PG_HOST: oai-mep-gateway-db
@@ -47,8 +45,6 @@ services:
     image: postgres:9.6
     restart: always
     container_name: "oai-mep-gateway-db"
-    networks:
-      - kong-net
     environment:
       POSTGRES_USER: kong
       POSTGRES_DB: kong
