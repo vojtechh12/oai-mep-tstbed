@@ -1,4 +1,4 @@
-<img src="./images/logo_cvut_en_Pantone.pdf" alt="" border=3 width=150>
+<img src="./images/logo_cvut_en.jpg" alt="" border=3 width=150>
 </img>
 
 # VEC testbed
