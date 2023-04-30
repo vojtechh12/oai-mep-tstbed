@@ -1,12 +1,13 @@
 # Deployment of MEC app
 ### 1. Build a Docker container with MEC app
 cd to Testbed-proj/
-'''docker build -t tstbed-app .'''
+```docker build -t tstbed-app .```
 You can check that the tstbed-app image was created:
-'''docker image ls | grep tstbed-app
+```docker image ls | grep tstbed-app```
 
 ### 2. Deploy the containerized MEC app to 
-```shelldocker run -d -p 5000:5000 --network demo-oai-public-net tstbed-app
+```shell
+docker run -d -p 5000:5000 --network demo-oai-public-net tstbed-app
 ```
 You can check that the app is running properly in your web browser: [http://tstbed-app.org:5000/hello]
 
