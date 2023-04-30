@@ -2,6 +2,10 @@
 
 This repository contains code and documentation for VEC tested. The whole respository was forked from [OAI-mep](https://gitlab.eurecom.fr/oai/orchestration/blueprints). On top of the platform a sample flask application was built to demostrate the process of building, containerizing and onboarding of MEC apps to MEC platform. The platforms provides an environment where individual applications can offer and consume services.
 
+## Deploy the testbed
+1. [Deploy the OAI MEP](./mep/README.md)
+2. Deploy the MEC app
+
 <table style="border-collapse: collapse; border: none;">
   <tr style="border-collapse: collapse; border: none;">
     <td style="border-collapse: collapse; border: none;">
