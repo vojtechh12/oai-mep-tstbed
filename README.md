@@ -4,7 +4,7 @@ This repository contains code and documentation for VEC tested. The whole respos
 
 ## Deploy the testbed
 1. [Deploy the OAI MEP](./mep/README.md)
-2. Deploy the MEC app
+2. [Deploy the MEC app](./Testbed-proj/README.md)
 
 <table style="border-collapse: collapse; border: none;">
   <tr style="border-collapse: collapse; border: none;">
