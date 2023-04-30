@@ -20,7 +20,7 @@ You can check that the app is running properly in your web browser: [http://tstb
 
 Access to swagger UI of the `Mp1` interface on the Platform: [http://192.168.70.5/v1/ui/#/default/get_services]
 
-Now you need to register your app properly under '/register' using a 'POST' request.
+Now you need to register your app properly under `/register` using a `POST` request.
 
 **WARNING:** Simply editing the example `.json` won't work, under `sid` you need to add a `uid` to avoid confusing the database. (You can choose any `uid`).
 
