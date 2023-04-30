@@ -4,9 +4,9 @@
 # VEC testbed
 *This repository is a result of bachelor's project under Czech Technical University in Prague*
 
-* contains the code and documentation for VEC tested. 
-* forked from [OAI-mep](https://gitlab.eurecom.fr/oai/orchestration/blueprints).
-* The testbed provides the necessary emulated network infrastructure to enable creating and testing applications for **Vehicular Edge Computing (VEC)**.
+* contains the code and documentation for VEC tested
+* forked from [OAI-mep](https://gitlab.eurecom.fr/oai/orchestration/blueprints)
+* The testbed provides the necessary emulated network infrastructure to enable creating and testing applications for **Vehicular Edge Computing (VEC)**
 
 ## Testbed Features
 * MEC platform by OpenAirInterface (OAI)
