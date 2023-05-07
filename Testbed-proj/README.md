@@ -57,7 +57,7 @@ A successful request body might look like this:
   "port": 5000,
   "sid": "sid",
   "uid": "tstbedUID",
-  "type": "ML"
+  "type": "Traffic"
 }
 ```
 
