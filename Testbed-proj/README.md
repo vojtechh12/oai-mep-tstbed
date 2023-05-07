@@ -13,7 +13,22 @@ docker image ls | grep tstbed-app
 ```shell
 docker run -d -p 5000:5000 --network demo-oai-public-net tstbed-app
 ```
-You can check that the app is running properly in your web browser: http://tstbed-app.org:5000/hello
+You can check that the app is running properly in your web browser: http://localhost:5000/hello
+
+### 3. Add an entry to local DNS server
+Check the IP address of the Docker container with Flask app
+```shell
+docker inspect tstbed-app
+```
+Enter local DNS
+```shell
+sudo nano /etc/hosts
+```
+Now insert the following line and replace <App IP> with IP address of Flask app on `demo-oai-public-net`
+```shell
+<App IP> tstbed-app.org
+```
+Check if it was added successfully: http://tstbed-app.org/hello
 
 ### 3. Register your MEC app as a MEC service
 * Note: this is only necessary if you want other MEC applications to be able to consume your app's services or if you want to have it routable under the oai-mep.org domain.
