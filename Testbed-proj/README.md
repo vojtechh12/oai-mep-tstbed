@@ -53,7 +53,7 @@ A successful request body might look like this:
   ],
   "host": "tstbed-app.org",
   "name": "tstbed-app",
-  "path": "/v1/flask-app",
+  "path": "/",
   "port": 5000,
   "sid": "sid",
   "uid": "tstbedUID",
