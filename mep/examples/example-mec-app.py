@@ -55,8 +55,8 @@ def receive_notification():
         for aid in content["AssociateId"]:
             if aid not in collected_data:
                 collected_data[aid] = {}
-            for kpi in kpis:
-                collected_data[aid]["kpi"] = kpi
+            for kpi_name, kpi_data in kpis.items():
+                collected_data[aid][kpi_name] = kpi_data['value']
     return "OK"
 
 @app.route('/dashboard', methods=['GET'])
