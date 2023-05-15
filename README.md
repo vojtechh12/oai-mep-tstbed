@@ -23,6 +23,6 @@ clone this project:
 git clone https://github.com/vojtechh12/oai-mep-tstbed.git
 ```
 1. [Deploy the OAI MEP](./mep/README.md)
-2. [Deploy the MEC app](./sample-app/README.md)
+2. [Deploy the MEC app](./sample_app/README.md)
 
 
