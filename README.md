@@ -18,6 +18,10 @@
 * in future, the app will both consume and provide services in MEC platform environment
 
 ## Deploy the testbed
+clone this project:
+```shell
+git clone https://github.com/vojtechh12/oai-mep-tstbed.git
+```
 1. [Deploy the OAI MEP](./mep/README.md)
 2. [Deploy the MEC app](./Testbed-proj/README.md)
 
