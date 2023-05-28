@@ -15,10 +15,10 @@
   1. basic overview of possible integration of 5G and MEC.
   2. call flow for establishment of a PDU session towards MEC edge server (MEC host)
 
-<img src="./images/5g-cn-mec-integrated.png" alt="" border=3 width=500>
+<img src="./images/5g-cn-mec-integrated.png" alt="" border=3 width=700>
 </img>
 
-<img src="./images/MEC-5G-integration-flowchart.png" alt="" border=3 width=500>
+<img src="./images/MEC-5G-integration-flowchart.png" alt="" border=3 width=700>
 </img>
 
 ## Implementation
@@ -32,7 +32,7 @@
     6. MEP Gateway (reverse proxy)
     7. sample app showcasing a MEC app susbscribing to RNIS [(example app)](./mep/examples/example-mec-app.py)
 
-<img src="./images/OAI-MEP-parts.png" alt="" border=3 width=500>
+<img src="./images/OAI-MEP-parts.png" alt="" border=3 width=700>
 </img>
 
 * documenation of a sample app registration using the Registry and Discovery Service [registration](./sample_app/README.md).
