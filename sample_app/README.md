@@ -1,6 +1,6 @@
 # Deployment of MEC app
 ### 1. Build a Docker container with MEC app
-cd to Testbed-proj/
+cd to sample-app/
 ```shell
 docker build -t tstbed-app .
 ```
@@ -9,9 +9,9 @@ You can check that the tstbed-app image was created:
 docker image ls | grep tstbed-app
 ```
 
-### 2. Deploy the containerized MEC app to 
+### 2. Deploy the containerized MEC app
 ```shell
-docker run -d -p 5000:5000 --network demo-oai-public-net tstbed-app
+docker run -d -p 5000:5000 tstbed-app
 ```
 You can check that the app is running properly in your web browser: http://localhost:5000/hello
 
@@ -24,7 +24,7 @@ Enter local DNS
 ```shell
 sudo nano /etc/hosts
 ```
-Now insert the following line and replace <App IP> with IP address of Flask app on `demo-oai-public-net`
+Now insert the following line and replace <App IP> with IP address of Flask app on localhost
 ```shell
 <App IP> tstbed-app.org
 ```
@@ -43,14 +43,7 @@ A successful request body might look like this:
 ```json
 {
   "description": "testing registry with sample flask",
-  "endpoints": [
-    {
-      "description": "hello",
-      "method": "GET",
-      "name": "hello",
-      "path": "/v1/hello"
-    }
-  ],
+  "endpoints": [],
   "host": "tstbed-app.org",
   "name": "tstbed-app",
   "path": "/",

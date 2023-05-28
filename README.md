@@ -13,8 +13,8 @@
 * OAI 5G network running in docker containers
 * OAI Configuration Manager (CM) exposing 5G core network events to MEC platform
 * OAI Radio Network Information Service (RNIS) running as a MEC app
-* Testbed application demonstrating how to create, containerize, deploy and register a MEC app into MEC platform environment
-* MEC application is a Flask app
+* Testbed Flask application demonstrating how to create, containerize, deploy and register a MEC app into MEC platform environment
+* Example app by OAI, showcasing how a MEC app consumes RNIS service
 * in future, the app will both consume and provide services in MEC platform environment
 
 ## Deploy the testbed
