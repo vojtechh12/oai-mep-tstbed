@@ -25,7 +25,7 @@
 * VEC testbed leverages OpenAirInterface (OAI) MEC Platform (OAI MEP)
 * OAI MEP consists of the following parts:
     1. OAI 5G core network
-    2. OAI 5G RAN with the necessary functionality expose RAN information
+    2. OAI 5G RAN with the necessary functionality to expose RAN information
     3. OAI configuration manager collecting and exposing core network information (SMF and AMF)
     4. OAI Radio Network Information Service (RNIS)
     5. Discovery and Registry Service
@@ -67,4 +67,4 @@
 </table>
 
 ## Read more
-To read more about this project, you can read the bachelor's thesis [here](https://github.com/vojtechh12/bthesis/blob/master/bthesis.pdf).
+To read more about this project, you can check the bachelor's thesis [here](https://github.com/vojtechh12/bthesis/blob/master/bthesis.pdf).
